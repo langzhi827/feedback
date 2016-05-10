@@ -1,0 +1,34 @@
+{
+  "name": "feedback",
+  "version": "0.1.0",
+  "description": "feedback demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harry827/feedback.git"
+  },
+  "keywords": [
+    "feedback",
+    "nodejs",
+    "express",
+    "mongoose"
+  ],
+  "author": "harry.lang",
+  "bugs": {
+    "url": "https://github.com/harry827/feedback/issues"
+  },
+  "homepage": "https://github.com/harry827/feedback#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.4.16"
+  }
+}
